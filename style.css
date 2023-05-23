@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    
+    flex-wrap: wrap;
+
+
+}
+
+
+header nav img {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.8609px;
+    line-height: 100%;
+    position: relative;
+    top: 15px;
+
+
+}
+
+hr {
+    position: relative;
+    bottom: 40px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+header .menu1 ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #757575;
+    padding: 15px;
+
+
+}
+
+header .menu1 ul {
+    display: flex;
+    margin-left: 200px;
+    position: relative;
+    bottom: 25px;
+
+}
+
+header .menu1 ul li {
+    border-radius: 30px;
+    padding: 15px 5px;
+
+}
+
+header .menu1 {
+    margin-top: 40px;
+}
+
+header .menu1 ul li:hover {
+    background-color: #C3DCE3;
+}
+
+header .menu2 {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+
+
+}
+
+header .menu2 .active {
+    background-color: #C3DCE3;
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+
+header .menu2 ul li:hover {
+    background-color: #C3DCE3;
+}
+
+header .menu2 ul li {
+    border-radius: 30px;
+    padding: 15px 5px;
+}
+
+section .menu3 .a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #2B788B;
+    position: relative;
+    top: 110px;
+}
+
+section .menu3 h1 {
+    width: 531px;
+    height: 201px;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    position: relative;
+    top: 130px;
+}
+
+section .menu3 p {
+    width: 396.89px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    margin-top: 150px;
+}
+
+section .menu3 .btn {
+    width: 165px;
+    height: 44px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    padding: 0 25px;
+    margin-top: 25px;
+}
+
+
+section .menu3 .btn:hover {
+    background-color: #C3DCE3;
+
+}
+
+section .menu6 {
+
+    display: flex;
+
+    margin-top: 30px;
+    padding: 10px;
+
+
+}
+
+section .menu3 .popular {
+    width: 112px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #585858;
+    position: relative;
+    bottom: 150px;
+    left: 27px;
+
+}
+
+
+section .menu3 .menu5 {
+    margin-left: 150px;
+}
+
+section .menu3 .game {
+    width: 90px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    margin-left: 310px;
+    position: relative;
+    letter-spacing: -0.04em;
+    bottom: 320px;
+    color: #585858;
+}
+
+section .image {
+
+
+    display: flex;
+    position: relative;
+    bottom: 775px;
+    left: 550px;
+    flex-grow: 1;
+}
+
+section .image .oglan {
+    position: absolute;
+z-index: 1;
+}
+
+section .image .guldan {
+    position: absolute;
+margin-left: 200px;
+margin-top: 100px;
+z-index: 1;
+}
+
+section .image .kursor {
+    position: absolute;
+    margin-top: 140px;
+   position: relative;
+   right: 90px;
+}
