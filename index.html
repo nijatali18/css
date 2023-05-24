@@ -3,8 +3,14 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,26 +19,35 @@
 <body>
 
     <header>
-
+        <hr class="hrone" />
         <div class="container">
             <nav>
                 <div class="menu1">
-                    <img src="yazi.png" alt="yazi" title="Yazi" class="img1" />
+                    <div class="bars">
+                        <i class="fa-solid fa-bars"></i>
 
-                    <ul type="none">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Textbook</a>
-                        </li>
-                        <li>
-                            <a href="#">Statistics</a>
-                        </li>
-                        <li>
-                            <a href="#">Games</a>
-                        </li>
-                    </ul>
+                    </div>
+                    <div class="global">
+                        <img src="yazi.png" alt="yazi" title="Yazi" class="img1" />
+
+                    </div>
+
+                    <div class="none">
+
+                        <ul type="none">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Textbook</a>
+                            </li>
+                            <li>
+                                <a href="#">Statistics</a>
+                            <li>
+                                <a href="#">Games</a>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="menu2">
                         <ul type="none">
                             <li>
@@ -42,77 +57,94 @@
                                 <a href="#">Alex</a>
                             </li>
                             <li>
-                                <a href="#" class="passive">Sign out<i
-                                        class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                                <a href="#" class="passive">Sign out
+                                    <svg class="signtwo" width="9" height="6" viewBox="0 0 9 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.764587 0.608887L4.22676 4.07126L7.68914 0.608887" stroke="#757575"
+                                            stroke-width="1.6" />
+                                    </svg>
+                                    <i class="sign" class="fa-solid fa-arrow-right-from-bracket"></i></a>
                             </li>
 
                         </ul>
 
                     </div>
 
+
+
+
+                    <div>
+                        <hr class="hr" />
+
+                    </div>
+
                 </div>
+
             </nav>
 
         </div>
-
+        <hr class="hrtwo" />
     </header>
-    <hr />
+
     <section>
-        <div class="container">
-            <article>
+        <article>
 
-
-                <div class="menu3">
-
-                    <a href="#" class="a">E course platform</a>
-                    <h1>Learning and
-                        teaching online,
-                        made easy.</h1>
-                    <p>Practice your English and learn new things with the platform.</p>
-                    <button type="submit" class="btn">
-                        About platform</button>
-
-            </article>
-            <article>
+            <div class="container">
 
                 <div class="menu3">
-                    <div class="menu6">
-                        <div class="menu4">
-                            <img src="Vector.jpg" alt="Vector" />
-                            <img src="reqem.png" alt="Reqem" />
+
+                    <div class="menu">
+                        <form>
+                            <a href="#" class="a">E course platform</a>
+                            <h1>Learning and
+                                teaching online,
+                                made easy.</h1>
+                            <p>Practice your English and learn new things with the platform.</p>
+                            <button type="submit" class="btn">
+                                About platform</button>
+
+                        </form>
 
 
+                        <div class="top">
+
+                            <div class="menu4">
+                                <img src="Vector.jpg" alt="Vector" />
+                                <img src="reqem.png" alt="Reqem" />
 
 
-                        </div>
-                        <div class="menu5">
-                            <img src="Vector.png" alt="Vector">
-                            <img src="two.png" alt="two">
+                                <p class="popular">Popular words</p>
+
+
+                            </div>
+                            <div class="hr">
+                                <hr>
+                            </div>
+                            <div class="menu5">
+                                <img src="Vector.png" alt="Vector">
+                                <img src="two.png" alt="two">
+
+                                <p class="game">Mini-games</p>
+
+                            </div>
+
 
                         </div>
 
                     </div>
-                    <p class="popular">Popular words</p>
-                    <p class="game">Mini-games</p>
+
+
+                    <div class="image">
+                        <img src="img.png" alt="img">
+
+                    </div>
+
 
                 </div>
-
-
-            </article>
-            <article>
-                <div class="image">
-                    <div><img src="oglan.png" alt="oglan" class="oglan" width="500" height="450"></div>
-                    <div><img src="guldan.png" alt="guldan" class="guldan" width="500" height="450"></div>
-                    <div><img src="kursor.png" alt="kursor" class="kursor" width="200" height="200"></div>
-
-                </div>
-            </article>
-
-        </div>
-        </div>
+            </div>
+            </div>
+        </article>
     </section>
 
 
 </body>
-
-</html>

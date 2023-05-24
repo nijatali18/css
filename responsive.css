@@ -1,0 +1,115 @@
+@media (max-width:992px) {
+
+    .none {
+        display: none;
+
+    }
+
+    .btn {
+        margin-left: 100px;
+    }
+
+    section .image img {
+        width: 100%;
+        width:450px;
+        height: 380px;
+        position: relative;
+        left:250px;
+
+
+
+
+    }
+
+    .menu3 {
+        flex-direction: column;
+
+    }
+
+    .sign {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+
+        /* margin-left: 60px; */
+    }
+
+
+    .signtwo {
+
+        display: block;
+        display: inline;
+
+
+    }
+
+
+
+
+
+
+    .hrone {
+
+        display: block;
+        position: relative;
+        top: 20px;
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .hrtwo {
+        position: relative;
+        top: 10px;
+        display: block;
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .hr {
+        display: block;
+    }
+
+   
+
+    .menu {
+        align-items: center;
+    }
+
+    .top {
+        text-align: center;
+    }
+
+    .hr {
+        position: relative;
+        left: 10px;
+    }
+}
+
+@media(max-width:992px) {
+    .container {
+        max-width: 800px;
+    }
+
+}
+@media (max-width:768px){
+ section .menu .top{
+    margin-right: 20px;
+    /* flex-direction: row-reverse; */
+}
+section .menu3 .menu4{
+
+    position: relative;
+    /* right:100px; */
+}
+}
+@media(max-width:768px) {
+    .container {
+        max-width: 700px;
+    }
+}

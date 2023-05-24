@@ -12,10 +12,6 @@
 .container {
     max-width: 1100px;
     margin: auto;
-    
-    flex-wrap: wrap;
-
-
 }
 
 
@@ -30,65 +26,80 @@ header nav img {
 
 
 }
+.hrone{
+    display: none;
+}
+.hrtwo{
+    display: none;
+}
 
-hr {
+.hr {
     position: relative;
-    bottom: 40px;
+    top: 40px;
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+header .menu1 {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+header .menu1 .none {
+    margin-top: 5px;
+}
+.sign{
+    display: block;
+}
+.bars{
+    display:none;
+    margin-top: 15px;
+}
+.signtwo{
+    display: none;
+}
+
 header .menu1 ul li a {
+
     text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
+    padding: 10px;
+    letter-spacing: -0.04em;
     color: #757575;
-    padding: 15px;
-
-
 }
 
 header .menu1 ul {
+
     display: flex;
-    margin-left: 200px;
-    position: relative;
-    bottom: 25px;
+
+
 
 }
 
 header .menu1 ul li {
     border-radius: 30px;
-    padding: 15px 5px;
-
+    padding: 10px;
+   
 }
 
-header .menu1 {
-    margin-top: 40px;
-}
 
 header .menu1 ul li:hover {
     background-color: #C3DCE3;
 }
 
-header .menu2 {
-    display: flex;
-    justify-content: right;
-    position: relative;
-    bottom: 50px;
-    right: 30px;
-
-
-}
 
 header .menu2 .active {
     background-color: #C3DCE3;
     border-radius: 30px;
-    padding: 15px 20px;
+    padding: 10px 17px;
 }
 
 header .menu2 ul li:hover {
@@ -100,7 +111,7 @@ header .menu2 ul li {
     padding: 15px 5px;
 }
 
-section .menu3 .a {
+section .menu .a {
     text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
@@ -114,7 +125,7 @@ section .menu3 .a {
     top: 110px;
 }
 
-section .menu3 h1 {
+section .menu h1 {
     width: 531px;
     height: 201px;
     font-family: 'Dela Gothic One';
@@ -128,7 +139,7 @@ section .menu3 h1 {
     top: 130px;
 }
 
-section .menu3 p {
+section .menu p {
     width: 396.89px;
     height: 50px;
     font-family: 'Montserrat';
@@ -141,7 +152,7 @@ section .menu3 p {
     margin-top: 150px;
 }
 
-section .menu3 .btn {
+section .menu .btn {
     width: 165px;
     height: 44px;
     border-radius: 40px;
@@ -157,27 +168,16 @@ section .menu3 .btn {
     color: #2B788B;
     padding: 0 25px;
     margin-top: 25px;
+    margin-bottom: 20px;
+
 }
 
-
-section .menu3 .btn:hover {
+section .menu .btn:hover {
     background-color: #C3DCE3;
 
 }
 
-section .menu6 {
-
-    display: flex;
-
-    margin-top: 30px;
-    padding: 10px;
-
-
-}
-
 section .menu3 .popular {
-    width: 112px;
-    height: 22px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -187,55 +187,66 @@ section .menu3 .popular {
     color: #585858;
     position: relative;
     bottom: 150px;
-    left: 27px;
+    left: 20px;
+
+
 
 }
 
 
-section .menu3 .menu5 {
-    margin-left: 150px;
-}
+
 
 section .menu3 .game {
-    width: 90px;
-    height: 22px;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
-    margin-left: 310px;
-    position: relative;
+
     letter-spacing: -0.04em;
-    bottom: 320px;
+
     color: #585858;
+    position: relative;
+    bottom: 150px;
 }
 
-section .image {
 
+section .menu {
 
     display: flex;
+    flex-direction: column;
+}
+
+section .menu3 {
+    display: flex;
+}
+
+section .menu .top {
+    display: flex;
+
+
+
+}
+
+.image img {
+    width: 510px;
+    height: 350px;
     position: relative;
-    bottom: 775px;
-    left: 550px;
-    flex-grow: 1;
+    right: 150px;
+    top: 120px;
+
+
+
 }
 
-section .image .oglan {
-    position: absolute;
-z-index: 1;
-}
+section .hr {
+    height: 50px;
+    width: 2px;
+    background-color: #E0E0E0;
+    position: relative;
+    top: 5px;
+    right: 130px;
+    border-radius: 20px;
 
-section .image .guldan {
-    position: absolute;
-margin-left: 200px;
-margin-top: 100px;
-z-index: 1;
-}
-
-section .image .kursor {
-    position: absolute;
-    margin-top: 140px;
-   position: relative;
-   right: 90px;
 }
